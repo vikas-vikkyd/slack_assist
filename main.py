@@ -70,8 +70,8 @@ class SimpleDialogueManager(object):
 
 def main():
     args = parse_args()
-    #token = args.token
-    token = ''
+    token = args.token
+    #token = ''
 
     if not token:
         if not "TELEGRAM_TOKEN" in os.environ:
